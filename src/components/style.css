@@ -1,0 +1,95 @@
+nav{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container img{
+    height:100vh;
+    width:100vw;
+}
+.ad{
+    margin:2%;
+    float:right;
+}
+.box{
+    word-wrap: normal;
+    text-indent: 20px;
+    text-align: justify;
+    font-family:Poppins;
+    padding: 5%;
+}
+h1{
+    text-align :center;
+
+}
+button{
+    margin:2px;
+}
+img{
+   height: 100%;
+   width: 100%;
+   padding:2%;
+}
+.bi{
+    color:blue;
+}
+
+.cardbox{
+   
+   text-align: center;
+    height: 450px;
+    width: 350px;
+    background-color: rgb(9, 4, 17);
+    border:2px dashed black;
+    color:rgb(58, 202, 82);
+}
+.cardbox img{
+    height:200px;
+    width:300px;
+}
+.pricing{
+    height:auto;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(24, 22, 19);
+    color:rgb(231, 236, 236);
+    text-align: center;
+}
+.playstore{
+    background-color: grey;
+    
+    height: 70vh;
+    width:100vw;
+
+}
+.bottom{
+    float:right;
+    background-color: grey;
+    color: whitesmoke;
+}
+
+.b{
+    text-align: center;
+    height:30%;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cornsilk;
+    border:2px inset burlywood;
+}
+tr,th,td{
+    border:1px solid black;
+}
+.table{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container-fluid{
+    overflow:hidden;
+    overscroll-behavior-x: hidden;
+}
+input {
+    display: block;
+}
