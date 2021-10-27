@@ -1,4 +1,5 @@
 import React from 'react';
+import HomeIcon from '@mui/icons-material/Home';
 import "./style.css";
 const Menu = () => {
     return (
@@ -9,7 +10,7 @@ const Menu = () => {
   <h4>Logo</h4>
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/">Home <span class="sr-only"><HomeIcon/></span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/about">About</a>

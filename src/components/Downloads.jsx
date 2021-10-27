@@ -11,14 +11,15 @@ const Downloads = () => {
         
        
         <img src="/images/playstore.png" alt="playstore"/>
-        <div className="head">
-        <p>Thank you for Downloading</p>
-        </div>
+        
         
         <div className="bottom">
             <p>Copyright 2021</p>
         </div>
         </div> 
+        <div className="head">
+        <p>Thank you for Downloading</p>
+        </div>
         </div>
         </>
     );

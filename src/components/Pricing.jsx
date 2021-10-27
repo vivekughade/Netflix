@@ -1,4 +1,5 @@
 import React from 'react';
+import DoneIcon from '@mui/icons-material/Done';
 import "./style.css"
 const Pricing = () => {
     return (
@@ -33,53 +34,52 @@ const Pricing = () => {
                     <tr>
                         <td>Number of screens you can watch on at the same time</td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><DoneIcon/></td>
+                        <td><DoneIcon/></td>
+                        <td><DoneIcon/></td>
                     </tr>
                     <tr>
                         <td>Number of phones or tablets you can have downloads on</td>
                         <td></td>
-                        <td><i class="bi bi-check"></i></td>
-                        <td><i class="bi bi-check"></i></td>
-                        <td><i class="bi bi-check"></i></td>
+                        <td><DoneIcon/></td>
+                        <td><DoneIcon/></td>
+                        <td><DoneIcon/></td>
                     </tr>
                     <tr>
                         <td>Unlimited movies and TV shows</td>
                         <td></td>
                         <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><DoneIcon/></td>
+                        <td><DoneIcon/></td>
                     </tr>
                     <tr>
                         <td>Watch on your mobile phone and tablet</td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><DoneIcon/></td>
+                        <td><DoneIcon/></td>
+                        <td><DoneIcon/></td>
                     </tr>
                     <tr>
                         <td>Watch on your laptop and TV</td>
                         <td></td>
                         <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><DoneIcon/></td>
+                        <td><DoneIcon/></td>
                     </tr>
                     <tr>
                         <td>HD available</td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><DoneIcon/></td>
+                        <td><DoneIcon/></td>
+                        <td><DoneIcon/></td>
                     </tr>
                     <tr>
                         <td>Ultra HD available</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><DoneIcon/></td>
+                        <td><DoneIcon/></td>
+                        <td><DoneIcon/></td>
+                        <td><DoneIcon/></td>
                     </tr>
-
                 </table>
             </div>
             </div>

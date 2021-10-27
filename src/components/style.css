@@ -1,5 +1,7 @@
 body{
     overflow-x:hidden;
+    padding: 10px;
+    box-sizing: border-box;
 }
 .header{text-align: center;
 color:rgb(56, 155, 221);
@@ -81,10 +83,12 @@ img{
     text-align: center;
 }
 .bottom{
-    float:right;
+    
     background-color: grey;
     color: whitesmoke;
-    margin-right: 20px;
+    position:absolute;
+    margin-left: 90%;
+    margin-bottom: 2px;
 }
 
 .b{
@@ -102,6 +106,8 @@ tr,th,td{
 .table{
     margin-left: 10px;
     margin-right: 10px;
+    padding-right: 15px;
+    box-sizing: border-box;
 }
 .container-fluid{
     overflow:hidden;
