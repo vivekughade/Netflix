@@ -3,8 +3,9 @@ import React from 'react';
 const About = () => {
     return (
         <>
-       
-        <h1>About Us</h1>
+       <div className="header">
+            <h3><i>About Us</i></h3>
+            </div>
         <div className="box">
         <p>Lorem iSince Sony Pictures' contract to co-produce the
          James Bond series with MGM and Eon Productions expired with the 

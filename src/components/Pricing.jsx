@@ -40,9 +40,9 @@ const Pricing = () => {
                     <tr>
                         <td>Number of phones or tablets you can have downloads on</td>
                         <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><i class="bi bi-check"></i></td>
+                        <td><i class="bi bi-check"></i></td>
+                        <td><i class="bi bi-check"></i></td>
                     </tr>
                     <tr>
                         <td>Unlimited movies and TV shows</td>

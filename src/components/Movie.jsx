@@ -21,6 +21,9 @@ const Movie = () => {
 
     return (
         <>
+             <div className="header">
+            <h3><i>Movies</i></h3>
+            </div>
             <br /><br />
             <button
 
@@ -67,37 +70,37 @@ const Movie = () => {
 
                 items.map((elem) => {
 
-                    const { id, imgsrc, cardtitle, category, btntext} = elem;
+                    const { imgsrc, cardtitle, category, btntext} = elem;
 
                     return (
                         <div className="row">
-                    <div className="col-lg-4" style={{marginBottom:'5px'}}>
-                        <div class="card" style={{width: '18rem'}}>
-                    <img class="card-img-top" src={imgsrc} alt="Card image cap"/>
-                        <div class="card-body">
-                        <h5 class="card-title">{cardtitle}</h5>
-                        <p class="card-text">{category}</p>
-                         <a href="#" class="btn btn-primary">{btntext}</a>
+                        <div className="col-lg-4" style={{marginBottom:'5px'}}>
+                        <div className="card" style={{width: '18rem'}}>
+                    <img className="card-img-top" src={imgsrc} alt="Card  cap"/>
+                        <div className="card-body">
+                        <h5 className="card-title">{cardtitle}</h5>
+                        <p className="card-text">{category}</p>
+                         <a href="#" className="btn btn-primary">{btntext}</a>
                     </div>
                         </div>
                         </div>
                         <div className="col-lg-4" style={{marginBottom:'5px'}}>
-                        <div class="card" style={{width: '18rem'}}>
-                    <img class="card-img-top" src={imgsrc} alt="Card image cap"/>
-                        <div class="card-body">
-                        <h5 class="card-title">{cardtitle}</h5>
-                        <p class="card-text">{category}</p>
-                         <a href="#" class="btn btn-primary">{btntext}</a>
+                        <div className="card" style={{width: '18rem'}}>
+                    <img className="card-img-top" src={imgsrc} alt="Card  cap"/>
+                        <div className="card-body">
+                        <h5 className="card-title">{cardtitle}</h5>
+                        <p className="card-text">{category}</p>
+                         <a href="#" className="btn btn-primary">{btntext}</a>
                     </div>
                         </div>
                         </div>
                         <div className="col-lg-4" style={{marginBottom:'5px'}}>
-                        <div class="card" style={{width: '18rem'}}>
-                    <img class="card-img-top" src={imgsrc} alt="Card image cap"/>
-                        <div class="card-body">
-                        <h5 class="card-title">{cardtitle}</h5>
-                        <p class="card-text">{category}</p>
-                         <a href="#" class="btn btn-primary">{btntext}</a>
+                        <div className="card" style={{width: '18rem'}}>
+                    <img className="card-img-top" src={imgsrc} alt="Card  cap"/>
+                        <div className="card-body">
+                        <h5 className="card-title">{cardtitle}</h5>
+                        <p className="card-text">{category}</p>
+                         <a href="#" className="btn btn-primary">{btntext}</a>
                     </div>
                         </div>
                         </div>

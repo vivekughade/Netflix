@@ -1,5 +1,4 @@
 import React from 'react';
-import { useHistory } from 'react-router';
 import About from './About';
 import Games from './Games';
 import Movie from './Movie';
@@ -8,7 +7,7 @@ import Downloads from './Downloads';
 
 const Home = () => {
    
-    const history=useHistory()
+    
 
 
 
